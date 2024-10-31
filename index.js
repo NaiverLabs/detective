@@ -1,5 +1,5 @@
-var acorn = require('acorn-node');
-var walk = require('acorn-node/walk');
+var acorn = require('@naiverlabs/acorn-node');
+var walk = require('@naiverlabs/acorn-node/walk');
 var defined = require('defined');
 
 var requireRe = /\brequire\b/;

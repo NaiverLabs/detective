@@ -1,15 +1,18 @@
 {
-  "name": "detective",
+  "name": "@naiverlabs/detective",
   "description": "find all require() calls by walking the AST",
-  "version": "5.2.1",
-  "author": {
-    "name": "James Halliday",
-    "email": "mail@substack.net",
-    "url": "http://substack.net"
-  },
+  "version": "6.0.0",
+  "contributors": [
+    "Yanlong Wang <yanlong.wang@naiver.org>",
+    {
+      "name": "James Halliday",
+      "email": "mail@substack.net",
+      "url": "http://substack.net"
+    }
+  ],
   "bin": "bin/detective.js",
   "dependencies": {
-    "acorn-node": "^1.8.2",
+    "@naiverlabs/acorn-node": "^3.0.1",
     "defined": "^1.0.0",
     "minimist": "^1.2.6"
   },
@@ -26,7 +29,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/browserify/detective.git"
+    "url": "git://github.com/naiverlabs/detective.git"
   },
   "scripts": {
     "tests-only": "tape test/*.js",
